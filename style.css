@@ -1,0 +1,68 @@
+body {
+    text-align: center;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+}
+.menu{
+    list-style: none;
+    font-family: cursive;
+    float: :right;
+    top:10px;
+    right:30px;
+    cursor: pointer;
+    color: black;
+     text-align: center;
+    z-index: 10;
+}
+.links {
+    float: left;
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    z-index:1000px; 
+}
+
+.links:hover {
+    background-color: teal;
+}
+#img1{
+    height: 170px;
+    width: 170px;
+}
+
+#apps{
+  width: 100%;
+    height: 800px;
+}
+#games{
+   width: 100%;
+    height: 800px;  
+}
+#chatbots{
+     width: 100%;
+    height: 800px;
+   }
+
+}
+
+#img2{
+    height:250px;
+        width:200px;
+    transition:transform .2s;
+        border: 10px solid #AAAAAA;
+}
+img2:hover {
+    transform: scale(0.9);ṣ
+}
+#Capture1:hover{
+    transform: scale(0.9);ṣ
+}
+#Capture2:hover{
+    transform: scale(0.9);ṣ
+}
